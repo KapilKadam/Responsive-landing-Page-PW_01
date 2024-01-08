@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'YourPreferredFont', sans-serif; /* Add your preferred font family */
+  }
+  
+  .top-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #262222; /* Add your preferred background color */
+    padding: 15px;
+  }
+  .h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-right a {
+    color: white; /* Add your preferred text color */
+    margin-left: 15px; /* Add space between links if desired */
+    text-decoration: none;
+  }
+
+  nav {
+    display: flex;
+
+    justify-content: space-around;
+    background-image: url(./hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+    padding: 0.5em;
+    background-size: cover; /* Cover the entire section, maintaining aspect ratio */
+    background-position: center; /* Center the background image */
+    height: 100px; /* Set the height of the section */
+    text-align: center; /* Center-align text within the section */
+    padding: 20px;
+    gap: 1rem;
+  }
+
+  nav a {
+    text-align: right;
+    text-decoration: red;
+    color: black;
+    padding: 4em 2em ;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  nav a:hover {
+    background-color: #4b756e;
+  }
+  .img{
+    width: 100px;
+    height: 150px;
+  }
+
+  section {
+    background-size: cover;
+    background-image: url(./pngtree-modern-simple-elegant-dark-blue-landing-page-website-background-image_756950.jpg);
+    text-shadow: #000000;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f3eaea;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+
+
+  footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+  }
+  /* Contact Section Styles */
+#contact {
+  padding: 40px 0;
+  background-color: #ffffff;
+  background-image: url(./pngtree-modern-simple-elegant-dark-blue-landing-page-website-background-image_756950.jpg);
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  text-align: center;
+}
+
+.contact-item h3 {
+  color: white;
+}
+
+.contact-item p {
+  color: white;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+
+.contact-form h3 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+label {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button { 
+  background-color: green;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: white;
+}
+#about {
+  text-align: center; /* Center-align the content within the section */
+}
+
+#about img {
+  width: 100%; /* Set the width to 100% of the container */
+  max-width: 250px; /* Set a maximum width for responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Add some spacing above the image */
+  justify-content: space-between;
+}
